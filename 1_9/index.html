@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript_Assignments_1_9</title>
+    <script></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!-- 
+      Q1
+    ك أكثر من Code كلهم يقوموا بعمل نفس الوظيفة قم بكتابة تعليق Multiple Lines تشرح فيه باللغة الإنجليزية ما هو ال Code الذي لن يعمل مع ذكر السبب
+   -->
+
+        <script>
+          // Code One
+          document.getElementById("el").style.color = "red"; // Code One =>is not working because the element is not there yet
+        </script>
+        <script>
+          // Code Two
+          window.onload = function () {
+            document.getElementById("el").style.color = "red";
+          };
+        </script>
+      </head>
+      <body>
+        <h1 style="color: green" id="el">Page Title</h1>
+        <script>
+          // Code Three
+          document.getElementById("el").style.color = "red";
+        </script>
+     
+  </body>
+</html>

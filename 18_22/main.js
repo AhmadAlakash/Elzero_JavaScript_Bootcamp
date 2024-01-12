@@ -43,11 +43,11 @@ console.log(+num2 * +num2 - +num2); // 20
 
 //Q4
 
+
+
 let points = 10;
-points += 3;
-
 // Write Your Code Here
-
+points += 3;
 console.log(points); // 13
 
 // // Write Your Code Here;
